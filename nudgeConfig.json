@@ -34,10 +34,8 @@
                     "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
                 }
             ],
-            "actionButtonPath": "munki://updates",
-            "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
-            "requiredInstallationDate": "2021-08-28T00:00:00Z",
-            "requiredMinimumOSVersion": "11.5.2",
+            "requiredInstallationDate": "2023-10-28T00:00:00Z",
+            "requiredMinimumOSVersion": "14.1",
             "targetedOSVersionsRule": "default"
         }
     ],
@@ -65,14 +63,8 @@
         "randomDelay": false
     },
     "userInterface": {
-        "actionButtonPath": "munki://updates",
         "fallbackLanguage": "en",
         "forceFallbackLanguage": false,
-        "forceScreenShotIcon": false,
-        "iconDarkPath": "/somewhere/logoDark.png",
-        "iconLightPath": "/somewhere/logoLight.png",
-        "screenShotDarkPath": "/somewhere/screenShotDark.png",
-        "screenShotLightPath": "/somewhere/screenShotLight.png",
         "showDeferralCount": true,
         "simpleMode": false,
         "singleQuitButton": false,
